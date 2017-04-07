@@ -1,5 +1,5 @@
 {
-    "port": 8002,
+    "port": 8000,
     "regions": {
         "ap-northeast-1": ["s3.ap-northeast-1.amazonaws.com"],
         "ap-southeast-1": ["s3.ap-southeast-1.amazonaws.com"],
@@ -71,7 +71,7 @@
 
     "userMetaIndexing":true,
     "systemMetaIndexing":true,
-    "indexServerPort":7002,
+    "indexServerPort":7000,
     "healthChecks": {
         "allowFrom": ["127.0.0.1/8", "::1"]
     }
